@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="demos\**" />
+      <Compile Update="RobotSpider.UnitTests\UnitTest1.cs">
+        <Link>RobotSpider.UnitTest\UnitTest1.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="demos\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="demos\**" />
+    </ItemGroup>
+
+</Project>

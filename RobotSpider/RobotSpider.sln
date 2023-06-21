@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotSpider", "RobotSpider.csproj", "{EF0977AB-7C2B-4D59-9FCD-F96A5D1838EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotSpider.UnitTests", "..\RobotSpider.UnitTests\RobotSpider.UnitTests.csproj", "{D012EA98-046F-4219-A04D-1ADB3EF5C547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF0977AB-7C2B-4D59-9FCD-F96A5D1838EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0977AB-7C2B-4D59-9FCD-F96A5D1838EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0977AB-7C2B-4D59-9FCD-F96A5D1838EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0977AB-7C2B-4D59-9FCD-F96A5D1838EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D012EA98-046F-4219-A04D-1ADB3EF5C547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D012EA98-046F-4219-A04D-1ADB3EF5C547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D012EA98-046F-4219-A04D-1ADB3EF5C547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D012EA98-046F-4219-A04D-1ADB3EF5C547}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
